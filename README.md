@@ -17,6 +17,8 @@ handler.setZ(1)
 handler.setLengthA(15)
 handler.setLengthB(20)
 handler.setLengthC(10)
+
+handler.findPosition()
 ```
 
 

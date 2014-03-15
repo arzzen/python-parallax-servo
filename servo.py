@@ -5,7 +5,6 @@ sys.path.append('modules')
 import ParallaxServoController as PSC
 import ParallaxServoHandler as PSH
 
-
 rate = 3
 servo = PSC.ParallaxServoController('COM7', baudrate=2400)
 handler = PSH.ParallaxServoHandler(servo)
@@ -20,8 +19,8 @@ handler.setZ(1)
 handler.setLengthA(15)
 handler.setLengthB(20)
 handler.setLengthC(10)
-###
-handler.findPosition(x, y, z)
+
+handler.findPosition()
 
 
 

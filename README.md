@@ -4,6 +4,14 @@ python-parallax-servo
 
 Parallax Serial Servo Handler.
 
+Servo motor controller. Simple interface for Parallax microcontroller.
+
+Tested with "Parallax Continuous Rotation Servo"
+
+![parallax servo](http://www.parallax.com/sites/default/files/styles/mid-sized-product/public/900-00008.png?itok=ivl060qw "Parallax Continuous Rotation Servo")
+
+
+
 Simple usage
 =====================
 ```
